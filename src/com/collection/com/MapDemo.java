@@ -17,13 +17,13 @@ public class MapDemo
 		hs.put(1001, "Lavanya");
 		hs.put(1002,"Shaji");
 		hs.put(1003, "vaish");
-		System.out.println(hs);
+		System.out.println("Map "+hs);
 		Set s=hs.keySet();
-		System.out.println(s);
+		System.out.println("Keys "+s);
 		Collection s1=hs.values();
-		System.out.println(s1);
+		System.out.println("values "+s1);
 		Set s2=hs.entrySet();
-		System.out.println(s2);
+		System.out.println("Entries  "+s2);
 		Iterator i=s2.iterator();
 		while(i.hasNext())
 		{
