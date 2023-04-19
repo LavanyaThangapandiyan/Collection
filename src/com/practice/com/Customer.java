@@ -12,7 +12,7 @@ public class Customer
 		 this.CustomerName=CustomerName;
 		 this.CustomerLocation=CustomerLocation;
 	}
-	 void display()
+	 public void display()
 	 {
 		 String CustomerName="Raj";//Assign local variable 
 		 System.out.println("Customer ID : "+CustomerId);

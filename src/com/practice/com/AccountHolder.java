@@ -1,17 +1,14 @@
 package com.practice.com;
-
-public class AccountHolder {
-
+public class AccountHolder 
+{
 	public static void main(String[] args) 
 	{
 	BankBalance bb=new BankBalance();
-	
 	int minimumBalance = bb.getMinimumBalance();
 	System.out.println("Minimum Balance  "+minimumBalance);
 	bb.setMinimumBalance(3000);
     minimumBalance = bb.getMinimumBalance();
-	System.out.println("Minimum Balance  "+minimumBalance);
-	
+	System.out.println("Minimum Balance  "+minimumBalance);	
 	}
 }
 class BankBalance

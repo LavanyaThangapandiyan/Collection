@@ -4,7 +4,7 @@ public class Method
 {		 
  private int sub()
  {
-	int a=50,b=20;
+	int a=50,b=10;
 	int c=a-b;
 	System.out.println("result "+c);
 	return c;
