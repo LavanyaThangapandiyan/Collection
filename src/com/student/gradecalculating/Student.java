@@ -26,7 +26,7 @@ public class Student
 		int mark3=sc.nextInt();
 		int mark4=sc.nextInt();
 		int mark5=sc.nextInt();	
-	 if(mark1<=100&&mark2<=100&&mark3<=100&&mark3<=100&&mark4<=100)
+	 if(mark1<=100&&mark2<=100&&mark3<=100&&mark3<=100&&mark4<=100&&mark5<=100)
 		{
 	    if(mark1<0&&mark2<0&&mark3<0&&mark4<0&&mark5<0)
 		{
