@@ -1,5 +1,12 @@
 package com.task.practice;
 import java.util.Scanner;
+
+//A student will not be allowed to sit in exam if his/her attendence is less than 75%.
+//Take following input from userNumber of classes held Number of classes attended.
+//And print percentage of class attended Is student is allowed to sit in exam or not.
+//Also decide to allow student to sit if he/she has medical cause.
+//Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly
+
 public class StudentExamHall 
 {
 	public void studentAllowExamHall()
@@ -14,11 +21,11 @@ public class StudentExamHall
         if(pf<75)
          {
             System.out.println("Are you medical cause?");
-            System.out.println("Enter your choise");
-            System.out.println("1 : yes");
-            System.out.println("2 : No");
-            int choise=in.nextInt();
-            switch(choise)
+            System.out.println("Enter your choice");
+            System.out.println("IF yes PRESS 1");
+            System.out.println("OTHERWISE PRESS 2 ");
+            int choice=in.nextInt();
+            switch(choice)
             {
                case 1:
                    System.out.println("you can sit an exam");
